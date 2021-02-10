@@ -99,7 +99,7 @@ if (isset($_GET['mois'])) {
 } else {
 	$moisCourant = 11;
 }
-/* Récupération de la donnée 'mois' avec la méthode 3 pour la valeur par défaut. */
+/* Récupération de la donnée 'region' avec la méthode 3 pour la valeur par défaut. */
 $regionCourant = (isset($_GET['region'])) ? $regionCourant = $_GET['region'] : 7;
 
 /* =============================================================================
